@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/primary_dark"
+        android:gravity="center_vertical"
+        android:text="AGREGAR TAREA"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_titletarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="TÍTULO"
+        android:inputType="textPersonName"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:textAlignment="textEnd"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha"
+        android:inputType="textPersonName"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:textAlignment="textEnd"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_detallestarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descripción"
+        android:inputType="textMultiLine"
+        android:paddingRight="5dp"
+        android:textAlignment="textEnd"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_agregar_tarea"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:paddingTop="20dp"
+        android:text="Agregar"
+        android:textAlignment="textEnd"
+        android:textColor="@color/primary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

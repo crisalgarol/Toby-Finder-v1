@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.bekoman.toby_main.toby_index">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="07:00-08:30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hora_txt"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAlignment="viewStart"
+                android:textColor="@color/primary_dark"
+                android:textSize="14sp" />
+
+            <Button
+                android:text="DIA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dia_txt"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAlignment="textEnd"
+                android:textColor="@color/primary_dark"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="40dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:elevation="7dp"
+                app:srcCompat="@drawable/logo_toby_letters_blue" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:scrollbarSize="20dp"
+                android:thumbTint="@color/primary_dark" />
+
+            <EditText
+                android:id="@+id/Buscar_campo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/rounded_corners"
+                android:elevation="4dp"
+                android:ems="10"
+                android:hint="Ingrese una palabra"
+                android:imeOptions="actionSearch"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:text=""
+                android:textAlignment="center"
+                android:textColorHint="#8e8e93"
+                tools:fontFamily="sans-serif"></EditText>
+        </LinearLayout>
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/boton_go"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom|end"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/loginico" />
+        </android.support.design.widget.CoordinatorLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

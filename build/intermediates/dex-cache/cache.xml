@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/csb/Desktop/TOBIAS/toby_main/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac8785c1357fc30f0b67689ced4b7e4b7f378804">
+        <dex dex="/Users/csb/Desktop/TOBIAS/toby_main/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cded6449c80d5abec347b0b1f83533ea4430b77f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/csb/Desktop/TOBIAS/toby_main/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/csb/Desktop/TOBIAS/toby_main/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b4d4e345094f2a2c72fa67eeaa601069e6389616/classes.dex" />
+    </item>
+
+</items>
